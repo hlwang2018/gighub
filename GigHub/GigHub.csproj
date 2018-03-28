@@ -214,6 +214,10 @@
     <Compile Include="Migrations\201803281853500_OverrideCodeFirst.Designer.cs">
       <DependentUpon>201803281853500_OverrideCodeFirst.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803281940119_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201803281940119_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201803281940119_PopulateGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -310,6 +314,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803281853500_OverrideCodeFirst.resx">
       <DependentUpon>201803281853500_OverrideCodeFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803281940119_PopulateGenresTable.resx">
+      <DependentUpon>201803281940119_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
